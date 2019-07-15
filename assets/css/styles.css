@@ -5,3 +5,7 @@ p {
 p span {
   background-color: aliceblue;
 }
+
+p h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
