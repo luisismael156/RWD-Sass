@@ -1,0 +1,14 @@
+.main-menu{
+
+    display: flex;
+    list-style: none;
+}
+.menu-parent{
+
+    display: flex;
+    align-items: center;
+    .main-menu-item{
+        margin-left: 1rem;
+
+    }
+}

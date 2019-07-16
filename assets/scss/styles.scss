@@ -1,20 +1,8 @@
 @import "config/variables";
+@import "base/base";
 @import "components/header";
+@import "components/menu"; 
 @import "layout/layout";     
+ 
 
 
-
-p{
-   
-    color: white;       
-    
-    span{
-
-    background-color: aliceblue;
-    }
-   
-    h1{
-
-        font-family: 'Courier New', Courier, monospace;
-    }
-}    
