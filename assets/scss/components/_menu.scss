@@ -2,13 +2,61 @@
 
     display: flex;
     list-style: none;
+    width: 100%;
+    flex-direction: column;
+    @include from(l){
+        flex-direction: row;
+    }
 }
 .menu-parent{
 
     display: flex;
     align-items: center;
-    .main-menu-item{
-        margin-left: 1rem;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    width: 80vw;
+    background-color: black;
+  
+    top: 4rem;
+    right: -80vw;
+    transition: right .3s;
+    @include from(l){
+        position: static;
+        background: transparent;
+        width: auto;
+        height: auto;
 
     }
+    &.show{
+
+        right: 0;
+       
+        
+
 }
+    .main-menu-item{
+        margin-left: 1rem;
+        margin-left: 1rem;
+        padding: 2rem 0;
+        font-size: 22px;
+        @include from(l){
+            padding: 0;
+        }
+           
+    }
+}
+.main-menu-toggle{
+    $color:black;
+    width: 2.2rem;
+    height: 1.6rem;
+    background-color: red;
+    margin-top: 1rem;
+    background: linear-gradient($color 20%, transparent 20%,transparent 40%,$color 40%, $color 60%,transparent 60%,transparent 80%,$color 80%);
+    cursor: pointer;
+    @include from(l){
+
+        display: none;
+    }
+}
+
