@@ -17,6 +17,8 @@
     height: 100vh;
     width: 80vw;
     background-color: black;
+    z-index: 9;
+
   
     top: 4rem;
     right: -80vw;
@@ -26,12 +28,11 @@
         background: transparent;
         width: auto;
         height: auto;
-
     }
     &.show{
 
         right: 0;
-       
+        z-index: 9;
         
 
 }

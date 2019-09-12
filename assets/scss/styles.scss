@@ -1,9 +1,15 @@
-@import "config/variables";
 @import "config/mixins";
+@import "config/variables";
+
 @import "base/base";
 @import "components/header";
 @import "components/menu"; 
-@import "layout/layout";     
+@import "layout/layout"; 
+@import "components/banner";  
+@import "theme/theme";
+@import "components/card";
+@import "components/buttons";
+@import "components/icons"
  
 
 

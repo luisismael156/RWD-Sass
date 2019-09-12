@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body{
-
+font-size: var(--body-font-size);
     margin: 0;
     font-family: 'Lato', sans-serif,'Roboto';
 }
@@ -15,4 +15,8 @@ text-decoration: none;
 img{
 
     max-width: 100%;
+}
+h1{
+
+    font-size: var(--h1-font-size);
 }

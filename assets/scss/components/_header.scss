@@ -9,6 +9,10 @@
 .main-header{
 height: 4rem;
 border-bottom: 1px solid $border-color;
+position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
   .l-container{
     justify-content: space-between;
  
